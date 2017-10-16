@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body{
+font-family: 'Roboto', sans-serif;
+background: #E7F4F5;
+}/* Side Bar Begins*/
+#sideMenu{
+  background: #C90300;
+  width: 200px;
+  position: absolute;
+  top:0;
+  bottom:0;
+}/* Navigation side*/
+nav{
+padding-top:100px;
+}/* Link Plain*/
+a {
+  display: block;
+  color: #E7F4F5;
+  text-decoration: none;
+  padding: 10px 30px 15px 28px;
+  font-size:17px;
+  transition: all .3s ease-in-out;
+}/* Links when clicked */
+a:focus{
+background: #FF5733;
+border-left:3px solid black;
+color:white;
+}/* Navigation side*/
+a:link {
+  text-decoration: none;
+}/* Links on hover */
+a:hover { 
+  color: white;
+  opacity: .50;
+  border-left:3px solid white;
+  padding: 15px 30px 15px 28px;
+}/* Icons */
+.fa{
+  color:#F2F2F2;
+  font-size:1.4rem;
+  margin-right .8rem;
+  display: inline-block;
+  width: 20px;
+  position:relative;
+  top:2px;
+}
+/* Side Bar Ends*/
